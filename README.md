@@ -179,14 +179,17 @@ The basic architecture of the app:
 
 The data-processing happens in a multi-threaded pipeline. 
 
-	1) Injest: 
-	Data is consumed by a DataConnection and added to the pipeline ( ProcessingPipeline ). The output of the DataConnection is called a DataPacket.
-
-	2) Process: 
-	DataPackets that have been added to the pipeline from the connection are then handed off to DataParser. DataParser runs the latest data through any Filters that are active. The DataPacket is then wrapped up into a FilteredDataPacket and added back to the pipeline. FilteredDataPackets hold not only the raw data, but also the filter output and aggregate values. Roughly speaking filterResultsByChannel contains output for each channel for each filter. filterResultsByNavBundling contains aggregate output for each bundle category. These filtered packets are then added back into the pipeline.
-
-	3) Dispatch: 
-	FilteredDataPackets that are waiting in the pipeline are picked up by dispatcher (FilteredDataServer) and stored for time-based lookup. This class is the ultimate data store for the data. Any data that's older than the duration of the timeline will be purged so it doesn't take up system memory.
+<ol>
+<li><strong>Injest:</strong><br/>
+Data is consumed by a DataConnection and added to the pipeline ( ProcessingPipeline ). The output of the DataConnection is called a DataPacket.
+</li>
+<li><strong>Process:</strong><br/>
+DataPackets that have been added to the pipeline from the connection are then handed off to DataParser. DataParser runs the latest data through any Filters that are active. The DataPacket is then wrapped up into a FilteredDataPacket and added back to the pipeline. FilteredDataPackets hold not only the raw data, but also the filter output and aggregate values. Roughly speaking filterResultsByChannel contains output for each channel for each filter. filterResultsByNavBundling contains aggregate output for each bundle category. These filtered packets are then added back into the pipeline.
+</li>
+<li><strong>Dispatch:</strong><br/>
+FilteredDataPackets that are waiting in the pipeline are picked up by dispatcher (FilteredDataServer) and stored for time-based lookup. This class is the ultimate data store for the data. Any data that's older than the duration of the timeline will be purged so it doesn't take up system memory.
+</li>
+</ol>
 
 The front-end UI queries the dispatcher for data using timestamps. Most of that logic happens in the main app class ( LIGOClockApp ). Specific submodules have their own rendering class. For example the timeline ( TimelineRenderer ), the moment view ( MomentRenderer ) and the bundling nav ( NavigationRenderer ).
 
