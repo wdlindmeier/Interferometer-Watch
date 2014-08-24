@@ -1,0 +1,33 @@
+# Config Setting Name, Config Setting Value
+
+# CALTECH
+primary_channel_timeline_name, C1:LSC-DARM_OUT16
+primary_channel_fft_name, C1:LSC-DARM_IN1_DQ
+frame_files_path, /Users/bill/Documents/Jobs/JPL/DATA/Version_2_1232_sec
+bundling_files_path, /Users/bill/Documents/Jobs/JPL/CODE/CommonData/Bundling_C1
+
+# LIVINGSTON
+# primary_channel_timeline_name, L1:LSC-DARM_OUT16
+# primary_channel_fft_name, L1:LSC-DARM_IN1_DQ
+# frame_files_path, /Users/bill/Documents/Jobs/JPL/DATA/Version_3_Advanced
+# bundling_files_path, /Users/bill/Documents/Jobs/JPL/CODE/CommonData/Bundling_L1
+
+# DISPLAY
+use_retina_display, 1
+use_live_data, 0
+use_fullscreen, 0
+screen_width, 1280
+screen_height, 800
+
+# LIVE DATA
+# live_data_server_address, nds40.ligo.caltech.edu
+# nds_version, 2
+# live_data_server_port, 31200
+# live_data_server_address, 192.168.113.202 // same as fb
+live_data_server_address, fb
+live_data_server_port, 8088
+nds_version, 1
+# max_live_channels must be greater than 2
+max_live_channels, 80
+timeline_duration_sec, 240
+live_data_time_delay, 120

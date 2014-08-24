@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5811FD52-223B-4733-B08A-7ADBD35617F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LIGOclock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10305CEE-6DA6-459C-8DB9-297EFC224C5F</key>
+		<string>wdlindme@wdlindmeier.com:/home/wdlindme/svn/ligo</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LIGOclock/xcode/LIGOclock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10305CEE-6DA6-459C-8DB9-297EFC224C5F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>wdlindme@wdlindmeier.com:/home/wdlindme/svn/ligo</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10305CEE-6DA6-459C-8DB9-297EFC224C5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10305CEE-6DA6-459C-8DB9-297EFC224C5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CODE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

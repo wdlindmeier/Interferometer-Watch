@@ -1,0 +1,8 @@
+# Bundling name, Channel Bundling Column, Value Keys File
+Subsystem, 1, Subsystem Key.csv
+Area, 2, Area Key.csv
+Mirror, 3, Mirror Key.csv
+# Dist from GW Channel, 4, Dist GW Key.csv
+Direction, 5, Direction Key.csv
+Sensor / Control, 6, Sensor Control Key.csv
+Sample Rate, 7, Sample Rate Key.csv

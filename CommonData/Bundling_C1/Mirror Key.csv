@@ -1,0 +1,21 @@
+# Bundle Key,Bundle Name
+BS,Beam Splitter
+ITMX,"Input Test Mass, X Arm"
+ITMY,"Input Test Mass, Y Arm"
+PRM,Power Recycling Mirror
+SRM,Signal Recycling Mirror
+ETMX,"End Test Mass, X Arm"
+ETMY,"End Test Mass, Y Arm"
+MC1,Mode Cleaner 1
+MC2,Mode Cleaner 2
+MC3,Mode Cleaner 3
+PSL,Pre-Stabilized Mirror
+"ITMX, ETMX","ITMX, ETMX"
+"ITMX, ITMY, ETMX, ETMY","ITMX, ITMY, ETMX, ETMY"
+"MC1, MC2, MC3","MC1, MC2, MC3"
+"ITMY, ETMY","ITMY, ETMY"
+"ITMX, ITMY, ETMX, ETMY","ITMX, ITMY, ETMX, ETMY"
+"ITMX, ITMY, BS","ITMX, ITMY, BS"
+"ITMX, ITMY, PRM","ITMX, ITMY, PRM"
+"ITMX, ITMY, SRM","ITMX, ITMY, SRM"
+ ,None
