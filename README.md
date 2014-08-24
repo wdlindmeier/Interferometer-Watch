@@ -1,14 +1,14 @@
 #Interferometer Watch
 
-![Screenshot](http://github.com/wdlindmeier/Interferometer-Watch/raw/master/InterferometerWatch/screenshot.png)
+<a href="https://raw.githubusercontent.com/wdlindmeier/Interferometer-Watch/master/screenshot.png"><img src="https://raw.githubusercontent.com/wdlindmeier/Interferometer-Watch/master/screenshot.png" width="640"></a>
 
 ##About:
 
 The **Interferometer Watch** application is a data visualization which displays the state of a [laser interferometer (LIGO)](http://en.wikipedia.org/wiki/LIGO) machine. It was originally designed in the Summer of 2014 for the [Data To Discovery: Summer of Visualization](http://www.hi.jpl.nasa.gov/datavis/2014/) program at NASA's Jet Propulsion Lab and Caltech.
 
-[Download the Latest Build.](http://github.com/wdlindmeier/Interferometer-Watch/raw/master/BUILDS/InterferometerWatch.08.23.2014)
+[Download the Latest Build.](https://github.com/wdlindmeier/Interferometer-Watch/raw/master/BUILDS/InterferometerWatch.08.23.2014.zip)
 
-[Download the Users Guide.](http://github.com/wdlindmeier/Interferometer-Watch/raw/master/Users%20Guide.pdf)
+[Download the Users Guide.](https://github.com/wdlindmeier/Interferometer-Watch/raw/master/Users%20Guide.pdf)
 
 
 ##Contributors:
